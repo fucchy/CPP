@@ -26,6 +26,7 @@ int main(int argc,char* argv[]){
 
   std::cout<<"aは整数"<<a<<"であり、その2乗は"<<square(a)<<std::endl;
   std::cout<<"bは実数"<<b<<"であり、その2乗は"<<square(b)<<std::endl;
+
   return 0;
 }
 
