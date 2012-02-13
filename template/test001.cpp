@@ -1,8 +1,8 @@
 #include<iostream>
 #include<string>
 
-template <class T> void swapargs(T& a,T& b){
-    T temp=a;
+template <class Type> void swapargs(Type& a,Type& b){
+    Type temp=a;
     a=b;
     b=temp;
 }
